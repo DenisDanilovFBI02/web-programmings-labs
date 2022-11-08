@@ -27,6 +27,8 @@
                 height: 30px;
                 line-height: 30px;
                 padding-right: 20px;
+                position: absolute;
+                width: 100%;
             }
             .a {
                 display: inline;
@@ -50,6 +52,21 @@
             }
             .d {
                 position: relative;
+            }
+            .e {
+                width: 300px;
+                color: #333;
+                height: 100px;
+                border: 5px double black;
+                border-radius: 10px;
+                text-align: center;
+                position: relative;
+                background-color: azure
+            }
+            .e:hover {
+                background-color: aqua;
+                color: red;
+                z-index: 1;
             }
         </style>
     </head>
@@ -96,6 +113,13 @@
                 Зимы блистательным ковром.<br>
                 Все ярко, все бело кругом
             </div>
+            
+            <h1>Лесенка</h1>
+            <div class="e" style="top: -25px; left: 60px">Блок А</div>
+            <div class="e" style="top: -50px; left: 80px">Блок Б</div>
+            <div class="e" style="top: -75px; left: 100px">Блок В</div>
+            <div class="e" style="top: -100px; left: 120px">Блок Г</div>
+            <div class="e" style="top: -120px; left: 140px">Блок Д</div>
         </div>
 
         <div class="footer">
