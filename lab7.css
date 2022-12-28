@@ -32,3 +32,10 @@
     background-color: gray;
     text-align: center;
 }
+
+p {
+    color:black;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
