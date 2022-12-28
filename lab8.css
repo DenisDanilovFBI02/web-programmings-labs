@@ -21,3 +21,10 @@
     left: 0;
     right: 0;
 }
+
+#time {
+    text-align: right;
+    color: black;
+    font-size: 28px;
+    font-family: 'Courier New', Courier, monospace;
+}
