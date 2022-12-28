@@ -45,3 +45,12 @@ window.addEventListener('DOMContentLoaded', function() {
     let coords = document.querySelector('#coords');
     coords.addEventListener('mousemove', showCoords);
 });
+
+function fokyc(tag) {
+    tag.style.color = "blue"
+
+    if(tag.style.color = "blue")
+        span.style.fontsize = "28px";
+    else
+        ag.style.color = "blue"
+}
